@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+   padding: 20px;
+   text-shadow: 1.5px 1.5px 2px;
+}
+
+.flex-container {
+    display: flex;
+    padding: 20px;
+    width: 600px;
+    height: 100px;
+    gap: 5px;
+}
+
+.div {
+    height: 80px;
+    width: 400px;
+    border: 2px solid;
+}
+
+.flex-child1 {
+    flex-basis: 100px;
+    font-size: 1rem;
+    background-color: rgb(231, 148, 24);
+}
+
+.flex-child2 {
+    flex-basis: 500px;
+    background-color: rgb(58, 250, 199);
+}
+
+.flex-child3 {
+    flex-basis:800px;
+    background-color: rgb(29, 82, 227);
+}
